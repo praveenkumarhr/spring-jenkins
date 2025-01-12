@@ -9,17 +9,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class SpringJenkinsApplicationTests {
-	
-	private static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
+
+	//private static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 	@Test
 	void contextLoads() {
-		
-		logger.info("Test Case executing");
-		logger.info("Test Case executing 2,,,,,,,");
-		logger.info("Test Case executing 3,,,,,,,");
-		logger.info("Test Case executing 4,,,,,,,");
-		assertEquals(true, false);
+
 	}
 
 }
